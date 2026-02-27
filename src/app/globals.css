@@ -1,26 +1,280 @@
 @import "tailwindcss";
 
+@theme inline {
+  --color-brand-blue: #257af3;
+  --color-finta-50: #E7EDFD;
+  --color-finta-200: #B9D7EC;
+  --color-finta-800: #545454;
+  --color-finta-900: #212121;
+  --color-finta-950: #212121;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #212121;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Logo scroll animation */
+.logo-scroll {
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 60px,
+    black calc(100% - 60px),
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 60px,
+    black calc(100% - 60px),
+    transparent
+  );
+}
+
+.logo-track {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: max-content;
+  animation: scroll-left 40s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+.logo-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.logo-item:hover {
+  opacity: 1;
+}
+
+.logo-item .logo-color {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.logo-item:hover .logo-color {
+  opacity: 1;
+}
+
+/* Reviews column scroll animation */
+.reviews-column-up {
+  animation: scroll-up var(--duration, 400s) linear infinite;
+}
+
+.reviews-column-down {
+  animation: scroll-down var(--duration, 400s) linear infinite;
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Reviews mask */
+.reviews-mask {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 40px,
+    black calc(100% - 120px),
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 40px,
+    black calc(100% - 120px),
+    transparent
+  );
+}
+
+/* Integrations diagram scrolling icon column */
+.integrations-scroll-up {
+  animation: scroll-up var(--duration, 25s) linear infinite;
+}
+
+.integrations-scroll-up:hover {
+  animation-play-state: paused;
+}
+
+.integrations-scroll-mask {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+}
+
+/* Integrations diagram animated flow paths */
+@keyframes flow-along-path {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -24; }
+}
+
+.path-flow {
+  stroke-dasharray: 4 8;
+  animation: flow-along-path 1.2s linear infinite;
+}
+
+/* Design step flow dot pulse + line fill */
+@keyframes design-dot-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.15); opacity: 1; }
+}
+
+@keyframes design-line-fill {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.design-flow-dot {
+  animation: design-dot-pulse 1.8s ease-in-out infinite;
+}
+
+.design-flow-line {
+  animation: design-line-fill 1.2s ease-out infinite;
+}
+
+/* Entrance animations */
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+.delay-700 { animation-delay: 0.7s; }
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Font weight book */
+.font-book {
+  font-weight: 350;
+}
+
+/* Typing dots animation */
+@keyframes typing-dot {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+
+.typing-dot-1 { animation: typing-dot 1.4s ease-in-out infinite; }
+.typing-dot-2 { animation: typing-dot 1.4s ease-in-out 0.2s infinite; }
+.typing-dot-3 { animation: typing-dot 1.4s ease-in-out 0.4s infinite; }
+
+/* Light card background for chat bubbles */
+.bg-finta-25 {
+  background-color: #FBFBFB;
+}
+
+/* Mentioned-in carousel slide transition */
+.mentioned-slide {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.mentioned-slide-enter {
+  opacity: 0;
+  transform: translateX(12px);
+}
+
+.mentioned-slide-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
