@@ -38,45 +38,34 @@ export default function SmartSuggestions() {
           </div>
 
           {/* Right three use case cards with dividers */}
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-0">
+          <div className="flex-1 flex flex-col lg:grid lg:grid-cols-3 gap-0">
             {departments.map((dept, i) => (
-              <div key={dept.title} className="flex">
-                {i > 0 && (
-                  <div
-                    className="hidden md:block w-px self-stretch shrink-0"
-                    style={{ backgroundColor: "#333" }}
-                  />
-                )}
-                {i > 0 && (
-                  <div
-                    className="md:hidden h-px w-full"
-                    style={{ backgroundColor: "#222" }}
-                  />
-                )}
-                <div className={`flex-1 ${i > 0 ? "md:pl-6 lg:pl-8" : ""} ${i < departments.length - 1 ? "md:pr-6 lg:pr-8 pb-8 md:pb-0" : ""}`}>
-                  <div className="mb-4" dangerouslySetInnerHTML={{ __html: dept.icon }} />
-                  <h3
-                    className="text-base mb-2"
-                    style={{
-                      fontFamily: "var(--font-inter)",
-                      fontWeight: 600,
-                      color: "#FFFFFF",
-                    }}
-                  >
-                    {dept.title}
-                  </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{
-                      fontFamily: "var(--font-lato)",
-                      fontWeight: 400,
-                      color: "rgba(255,255,255,0.5)",
-                      lineHeight: 1.5,
-                    }}
-                  >
-                    {dept.description}
-                  </p>
-                </div>
+              <div
+                key={dept.title}
+                className={`${i > 0 ? "border-t border-[#222] lg:border-t-0 lg:border-l lg:border-[#333] pt-8 lg:pt-0 lg:pl-8" : ""} ${i < departments.length - 1 ? "pb-8 lg:pb-0 lg:pr-8" : ""}`}
+              >
+                <div className="mb-4" dangerouslySetInnerHTML={{ __html: dept.icon }} />
+                <h3
+                  className="text-base mb-2"
+                  style={{
+                    fontFamily: "var(--font-inter)",
+                    fontWeight: 600,
+                    color: "#FFFFFF",
+                  }}
+                >
+                  {dept.title}
+                </h3>
+                <p
+                  className="text-sm leading-relaxed"
+                  style={{
+                    fontFamily: "var(--font-lato)",
+                    fontWeight: 400,
+                    color: "rgba(255,255,255,0.5)",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  {dept.description}
+                </p>
               </div>
             ))}
           </div>
