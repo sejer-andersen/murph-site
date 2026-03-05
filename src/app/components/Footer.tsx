@@ -44,6 +44,11 @@ export default function Footer() {
                     How it works
                   </a>
                 </li>
+                <li>
+                  <a className="transition-colors duration-150" style={{ color: "rgba(255,255,255,0.5)" }} href="/supply-chain-and-logistics">
+                    Supply Chain & Logistics
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="flex flex-col gap-3">
