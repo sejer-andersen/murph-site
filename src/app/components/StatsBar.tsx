@@ -58,7 +58,7 @@ export default function StatsBar() {
           </div>
 
           {/* Right stats */}
-          <div className="flex items-stretch gap-8 sm:gap-12 lg:gap-16">
+          <div className="flex items-stretch gap-6 sm:gap-12 lg:gap-16">
             <div ref={stat1.ref}>
               <p
                 className="uppercase tracking-[0.12em] text-[11px] mb-3"
@@ -69,10 +69,10 @@ export default function StatsBar() {
                   letterSpacing: "0.12em",
                 }}
               >
-                Active Deployments
+                Systems Deployed
               </p>
               <p
-                className="text-5xl sm:text-6xl lg:text-7xl"
+                className="text-4xl sm:text-6xl lg:text-7xl"
                 style={{
                   fontFamily: "var(--font-inter)",
                   fontWeight: 500,
@@ -100,7 +100,7 @@ export default function StatsBar() {
                 Companies Worked With
               </p>
               <p
-                className="text-5xl sm:text-6xl lg:text-7xl"
+                className="text-4xl sm:text-6xl lg:text-7xl"
                 style={{
                   fontFamily: "var(--font-inter)",
                   fontWeight: 500,
