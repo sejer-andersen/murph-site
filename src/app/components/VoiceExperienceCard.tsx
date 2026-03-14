@@ -40,10 +40,9 @@ export default function VoiceExperienceCard() {
                   lineHeight: 1.6,
                 }}
               >
-                Deployment isn&apos;t the finish line — it&apos;s where the value starts.
-                We monitor, flag issues before they surface, and improve your
-                systems as your operations evolve. You get the results. We handle
-                everything else.
+                Deployment is where the time savings start. From day one, your
+                systems run, improve, and compound — giving you back more time
+                every week. We monitor and optimize. You just get the hours back.
               </p>
 
               {/* CTA */}

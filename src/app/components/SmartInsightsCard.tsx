@@ -8,7 +8,7 @@ const steps = [
   {
     title: "Time recovered",
     description:
-      "Hours burned on manual work go back to your team. Strategy, clients, growth — the work that actually moves the needle.",
+      "The hours your team burns on manual work? You get them back. Every week. Forever. Time that goes to strategy, clients, and growth instead.",
   },
   {
     title: "Accuracy improved",
@@ -18,7 +18,7 @@ const steps = [
   {
     title: "Operations scaled",
     description:
-      "Your business grows. Your systems grow with it. No additional headcount for the same repetitive work.",
+      "Scale without spending more time. Your systems grow with your business — no additional headcount, no additional hours.",
   },
 ];
 
@@ -234,9 +234,8 @@ export default function SmartInsightsCard() {
                   lineHeight: 1.6,
                 }}
               >
-                After deployment, your operations run faster, more accurately,
-                and without the overhead. Every system we build compounds — the
-                longer it runs, the more time it buys back.
+                Every system we build gives you time back. And it compounds —
+                the longer it runs, the more time you get. That&apos;s the point.
               </p>
 
               {/* CTA */}

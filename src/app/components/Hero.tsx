@@ -90,8 +90,8 @@ export default function Hero() {
             textShadow: "0 2px 20px rgba(0,0,0,0.4)",
           }}
         >
-          You already know where AI changes your business. We design, build,
-          and maintain the systems that make it real.
+          Your time is the most valuable thing you have. We build the
+          systems that give it back to you.
         </p>
 
         {/* CTA buttons */}
@@ -126,7 +126,7 @@ export default function Hero() {
               opacity: 0,
             }}
           >
-            Trusted by operators who don't wait
+            Trusted by people who value their time
           </p>
           <div className="animate-fade-in-up delay-600" style={{ opacity: 0 }}>
             <LogoCarousel />

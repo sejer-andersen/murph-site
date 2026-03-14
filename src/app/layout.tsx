@@ -17,17 +17,17 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Murph – Buy Time. For the First Time.",
   description:
-    "Murph is the AI execution partner for the top 1%. We design, build, and maintain the systems that buy you time. For the first time.",
+    "Time is the one thing you can't make more of. Murph builds the AI systems that buy it back. For the first time.",
   openGraph: {
     title: "Murph – Buy Time. For the First Time.",
     description:
-      "Murph is the AI execution partner for the top 1%. We design, build, and maintain the systems that buy you time.",
+      "Time is the one thing you can't make more of. Murph builds the AI systems that buy it back.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Murph – Buy Time. For the First Time.",
     description:
-      "Murph is the AI execution partner for the top 1%. We design, build, and maintain the systems that buy you time.",
+      "Time is the one thing you can't make more of. Murph builds the AI systems that buy it back.",
   },
 };
 

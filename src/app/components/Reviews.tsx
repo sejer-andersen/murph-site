@@ -193,14 +193,14 @@ export default function Reviews() {
               className="font-medium text-2xl sm:text-3xl lg:text-4xl text-center"
               style={{ wordSpacing: "0.02em", color: "#FFFFFF", fontFamily: "var(--font-inter)" }}
             >
-              What operators <span style={{ fontStyle: "italic" }}>say</span>
+              Time <span style={{ fontStyle: "italic" }}>bought back</span>
             </h2>
             <p
               className="lg:mt-3 sm:text-center mt-3 text-center"
               style={{ wordSpacing: "0.02em", color: "rgba(255,255,255,0.5)" }}
             >
-              We don&apos;t do demos and disappear. Here&apos;s what happens when
-              someone actually builds the thing.
+              Real companies. Real time saved. Here&apos;s what happens when you
+              stop losing hours to work that shouldn&apos;t need you.
             </p>
           </div>
         </div>

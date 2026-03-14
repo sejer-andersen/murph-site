@@ -31,9 +31,9 @@ export default function SmartSuggestions() {
                 lineHeight: 1.1,
               }}
             >
-              Built for the
+              Your time is
               <br />
-              top 1%
+              the product
             </h2>
           </div>
 
@@ -79,19 +79,19 @@ const departments = [
   {
     title: "Founders & operators",
     description:
-      "You've already tested the tools. You see the use cases. You need someone who builds at your standard — not another agency that ships a demo and disappears.",
+      "You're spending your most valuable hours on work that shouldn't need you. We build the systems that give those hours back — permanently.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`,
   },
   {
     title: "Domain experts",
     description:
-      "Your expertise is the product. We encode your methods, frameworks, and decisions into systems that deliver without you in the room.",
+      "Your knowledge is trapped in your calendar. We turn your expertise into systems that run without you — so your time goes back to what only you can do.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
   },
   {
     title: "Growth-stage teams",
     description:
-      "You have the volume and the domain knowledge. We build the infrastructure that lets your team do more — without hiring more.",
+      "Every new hire costs time to find, train, and manage. We build infrastructure that multiplies your team's output — without multiplying headcount.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>`,
   },
 ];

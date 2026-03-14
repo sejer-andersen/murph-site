@@ -139,7 +139,7 @@ export default function ProductShowcase() {
                 className="text-[15px] lg:text-base leading-relaxed mb-6"
                 style={{ color: "rgba(255,255,255,0.5)" }}
               >
-                End-to-end. No handoffs, no decks, no disappearing acts.
+                We find where your time is bleeding, then we stop the bleeding. End-to-end.
               </p>
 
               {/* CTA button */}

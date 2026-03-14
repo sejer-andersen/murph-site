@@ -79,13 +79,13 @@ const differentiators = [
   {
     title: "We don't hand off",
     description:
-      "Most consultants scope it, present a deck, and disappear. We design, build, deploy, and own the result. Start to finish.",
+      "Consultants cost you time twice — once for the project, once when they leave and it breaks. We build it, deploy it, and own it. Your time stays yours.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
   },
   {
     title: "Custom, not templated",
     description:
-      "No off-the-shelf tools with your logo slapped on. Every system is built around how your company actually operates.",
+      "Off-the-shelf tools waste your time with workarounds. We build around how you actually work — zero adaptation time for your team.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>`,
   },
   {

@@ -50,11 +50,10 @@ export default function Integrations() {
                 lineHeight: 1.6,
               }}
             >
-              Your CRM, spreadsheets, ERP — they stay. We don&apos;t replace
-              your stack and we don&apos;t ask your team to learn anything new. We
-              build the layer that connects everything: data flows where it
-              needs to, actions trigger automatically, and your operations run
-              on infrastructure you&apos;ve already paid for.
+              Switching tools costs time. Learning new tools costs time. We
+              don&apos;t touch your stack. We build the layer that connects
+              everything you already use — so your team spends zero time
+              adapting and all their time on work that matters.
             </p>
 
             {/* CTA */}

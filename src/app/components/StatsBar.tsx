@@ -52,8 +52,8 @@ export default function StatsBar() {
                 lineHeight: 1.5,
               }}
             >
-              We turn expert decision-making into infrastructure that runs without you.{"\n"}
-              Live in weeks, not months.
+              Every hour your team spends on repetitive work is an hour you can&apos;t buy back.{"\n"}
+              Until now.
             </p>
           </div>
 
