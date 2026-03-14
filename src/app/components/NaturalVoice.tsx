@@ -79,19 +79,19 @@ const differentiators = [
   {
     title: "We don't hand off",
     description:
-      "Most consultants scope a project, present a deck, and leave. We design, build, deploy, and take full ownership of the result.",
+      "Most consultants scope it, present a deck, and disappear. We design, build, deploy, and own the result. Start to finish.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
   },
   {
     title: "Custom, not templated",
     description:
-      "No off-the-shelf tools repackaged with your logo. Every system is designed around how your company actually works.",
+      "No off-the-shelf tools with your logo slapped on. Every system is built around how your company actually operates.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>`,
   },
   {
     title: "Systems that compound",
     description:
-      "Every system we deploy keeps running after we leave. The longer it runs, the more time it saves. By design.",
+      "Every system keeps running after we ship. The longer it runs, the more time it buys back. By design.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>`,
   },
 ];

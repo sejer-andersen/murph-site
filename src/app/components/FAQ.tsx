@@ -6,27 +6,27 @@ const faqs = [
   {
     question: "How does the engagement start?",
     answer:
-      "We begin with a discovery call to understand your operations. From there, we run a diagnosis phase, mapping your workflows, identifying bottlenecks, and scoping the systems that will have the highest impact. No code is written until we have a clear plan.",
+      "Discovery call. We map your workflows, find the bottlenecks, and scope the systems with highest impact. No code until we have a clear plan.",
   },
   {
     question: "How long does it take to see results?",
     answer:
-      "Most companies see their first system live within 4-6 weeks. The diagnosis and scoping phase typically takes 1-2 weeks, followed by build and deployment. Ongoing optimization continues after launch.",
+      "First system live in 4\u20136 weeks. Diagnosis and scoping takes 1\u20132 weeks. Continuous optimization after launch.",
   },
   {
     question: "What kind of companies do you work with?",
     answer:
-      "We work with growth-stage companies and established organizations that are losing significant time to repetitive operations. Our clients typically have 20-500 employees and are ready to invest in infrastructure that compounds over time.",
+      "Directors, founders, and C-level at growth-stage companies who already use AI daily. High standards for execution. Would rather pay for excellent work than cheap hours.",
   },
   {
     question: "Is this just another automation tool?",
     answer:
-      "No. We don't sell software off the shelf. Murph takes a consulting-led approach: we diagnose, design, build, and deploy custom systems tailored to your specific operations. The result is infrastructure that feels like it was always part of your company.",
+      "No. We don't sell software. Murph is an execution partner \u2014 we diagnose, design, build, and deploy custom systems tailored to your operations. The result feels like it was always part of your company.",
   },
   {
     question: "What happens after deployment?",
     answer:
-      "We provide ongoing support and optimization. Your systems are monitored, maintained, and improved over time. As your operations evolve, we adapt the infrastructure to match.",
+      "We own it. Your systems are monitored, maintained, and improved. As your operations evolve, the infrastructure adapts.",
   },
   {
     question: "How is my data handled?",

@@ -8,17 +8,17 @@ const steps = [
   {
     title: "Time recovered",
     description:
-      "Hours previously spent on manual tasks go back to your team, to focus on clients, strategy, and growth.",
+      "Hours burned on manual work go back to your team. Strategy, clients, growth — the work that actually moves the needle.",
   },
   {
     title: "Accuracy improved",
     description:
-      "Systems don't get tired, forget steps, or make typos. Output quality improves immediately and stays consistent.",
+      "Systems don't get tired, skip steps, or make typos. Quality goes up immediately and stays there.",
   },
   {
     title: "Operations scaled",
     description:
-      "As your business grows, your systems grow with it. No additional hires needed for the same repetitive work.",
+      "Your business grows. Your systems grow with it. No additional headcount for the same repetitive work.",
   },
 ];
 
@@ -235,8 +235,8 @@ export default function SmartInsightsCard() {
                 }}
               >
                 After deployment, your operations run faster, more accurately,
-                and without the manual overhead. Every system we build keeps
-                improving, adapting to how your business evolves.
+                and without the overhead. Every system we build compounds — the
+                longer it runs, the more time it buys back.
               </p>
 
               {/* CTA */}

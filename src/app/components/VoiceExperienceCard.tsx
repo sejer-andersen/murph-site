@@ -40,10 +40,10 @@ export default function VoiceExperienceCard() {
                   lineHeight: 1.6,
                 }}
               >
-                Deployment isn&apos;t the finish line, it&apos;s where the value starts.
-                We monitor performance, flag issues before they become problems,
-                and continuously improve your systems as your operations evolve.
-                You get the results. We handle everything behind the scenes.
+                Deployment isn&apos;t the finish line — it&apos;s where the value starts.
+                We monitor, flag issues before they surface, and improve your
+                systems as your operations evolve. You get the results. We handle
+                everything else.
               </p>
 
               {/* CTA */}
@@ -59,7 +59,7 @@ export default function VoiceExperienceCard() {
                     (e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)")
                   }
                 >
-                  Learn about our process
+                  See how it works
                 </a>
               </div>
             </div>

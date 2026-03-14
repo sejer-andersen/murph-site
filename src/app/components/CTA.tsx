@@ -14,10 +14,10 @@ export default function CTA() {
               className="font-medium text-2xl sm:text-3xl lg:text-4xl max-w-[30rem]"
               style={{ wordSpacing: "0.02em", fontFamily: "var(--font-inter)", color: "#FFFFFF" }}
             >
-              You know what needs to be built. We make it run.
+              You know what needs to be built. We make it happen.
             </h2>
             <p className="mt-4 max-w-[26rem] text-sm sm:text-base" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Tell us where the bottleneck is. We&apos;ll scope it, build it, and deploy it, end to end.
+              Tell us where the bottleneck is. We scope it, build it, and deploy it. End to end.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-3 sm:gap-x-4">
               <a

@@ -193,14 +193,14 @@ export default function Reviews() {
               className="font-medium text-2xl sm:text-3xl lg:text-4xl text-center"
               style={{ wordSpacing: "0.02em", color: "#FFFFFF", fontFamily: "var(--font-inter)" }}
             >
-              Built for <span style={{ fontStyle: "italic" }}>experts who scale</span>
+              What operators <span style={{ fontStyle: "italic" }}>say</span>
             </h2>
             <p
               className="lg:mt-3 sm:text-center mt-3 text-center"
               style={{ wordSpacing: "0.02em", color: "rgba(255,255,255,0.5)" }}
             >
-              You already know what AI can do. You just need someone to build
-              the real thing, end to end, so you stop being the bottleneck.
+              We don&apos;t do demos and disappear. Here&apos;s what happens when
+              someone actually builds the thing.
             </p>
           </div>
         </div>

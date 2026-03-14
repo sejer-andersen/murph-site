@@ -31,9 +31,9 @@ export default function SmartSuggestions() {
                 lineHeight: 1.1,
               }}
             >
-              Experts who
+              Built for the
               <br />
-              want more time
+              top 1%
             </h2>
           </div>
 
@@ -79,19 +79,19 @@ const departments = [
   {
     title: "Founders & operators",
     description:
-      "You already use AI daily. You know what should be automated. You just need someone to build it properly, so you stop being the bottleneck.",
+      "You've already tested the tools. You see the use cases. You need someone who builds at your standard — not another agency that ships a demo and disappears.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`,
   },
   {
-    title: "Coaches & knowledge businesses",
+    title: "Domain experts",
     description:
-      "Your expertise is the product. We turn your methods, frameworks, and decisions into systems that deliver without you in the room.",
+      "Your expertise is the product. We encode your methods, frameworks, and decisions into systems that deliver without you in the room.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
   },
   {
-    title: "Scaling teams",
+    title: "Growth-stage teams",
     description:
-      "You have the domain expertise and the volume. We build the infrastructure that lets your team do more without hiring more.",
+      "You have the volume and the domain knowledge. We build the infrastructure that lets your team do more — without hiring more.",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>`,
   },
 ];

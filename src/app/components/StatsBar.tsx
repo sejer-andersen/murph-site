@@ -52,8 +52,8 @@ export default function StatsBar() {
                 lineHeight: 1.5,
               }}
             >
-              Turn your most complex operations into quiet infrastructure,{"\n"}
-              up and running in weeks, not months.
+              We turn expert decision-making into infrastructure that runs without you.{"\n"}
+              Live in weeks, not months.
             </p>
           </div>
 

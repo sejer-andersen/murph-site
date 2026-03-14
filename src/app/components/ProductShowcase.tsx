@@ -26,31 +26,31 @@ const steps = [
   {
     title: "Diagnose",
     description:
-      "We study your operations end-to-end. Every workflow, handoff, and decision point. We find exactly where time is being lost.",
+      "We map every workflow, handoff, and decision point. We find exactly where your time is bleeding.",
     badge: "Discovery",
   },
   {
     title: "Design",
     description:
-      "We architect a custom system around your actual operations. Every rule your team follows gets encoded into logic the system can execute.",
+      "Every rule your team follows gets encoded into logic. No templates. Architecture built around how you actually operate.",
     badge: "Architecture",
   },
   {
     title: "Build",
     description:
-      "Our team engineers and tests the full system. No templates, no plug-and-play. Custom infrastructure built for your operation.",
+      "Custom infrastructure, engineered and tested end-to-end. Nothing off the shelf.",
     badge: "Development",
   },
   {
     title: "Deploy",
     description:
-      "We launch the system into your operations with staged rollouts. Everything is monitored from day one. Zero disruption to your team.",
+      "Staged rollout. Monitored from day one. Zero disruption to your team.",
     badge: "Launch",
   },
   {
     title: "Own",
     description:
-      "After launch, we maintain, monitor, and improve the system. You get the results. We handle everything behind the scenes.",
+      "We don't hand off. We maintain, monitor, and improve. You get the results. We handle everything else.",
     badge: "Ongoing",
   },
 ];
@@ -139,8 +139,7 @@ export default function ProductShowcase() {
                 className="text-[15px] lg:text-base leading-relaxed mb-6"
                 style={{ color: "rgba(255,255,255,0.5)" }}
               >
-                A consulting-led process. We diagnose, design, build, deploy,{"\n"}
-                then stay to run it.
+                End-to-end. No handoffs, no decks, no disappearing acts.
               </p>
 
               {/* CTA button */}
@@ -158,7 +157,7 @@ export default function ProductShowcase() {
                       "rgba(255,255,255,0.2)")
                   }
                 >
-                  Book a discovery call
+                  Talk to us
                 </a>
               </div>
 
@@ -646,7 +645,7 @@ function DemoOwnership() {
     <div className="flex flex-col gap-3">
       <div className="flex items-center justify-between mb-1">
         <span className="text-[11px] font-medium" style={{ color: "rgba(255,255,255,0.5)" }}>
-          Murph vs. Traditional Consultants
+          Murph vs. Everyone Else
         </span>
       </div>
       <div className="rounded-lg overflow-hidden" style={{ background: "rgba(255,255,255,0.02)" }}>
@@ -706,8 +705,7 @@ function DemoOwnership() {
         style={{ background: "rgba(74,222,128,0.06)", border: "1px solid rgba(74,222,128,0.1)" }}
       >
         <p className="text-[11px] leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-          We don&apos;t hand off projects. We build the system, deploy it, and
-          take full ownership of the result.
+          Others scope it and leave. We build it, deploy it, and own the result.
         </p>
       </div>
     </div>

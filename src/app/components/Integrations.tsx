@@ -50,12 +50,11 @@ export default function Integrations() {
                 lineHeight: 1.6,
               }}
             >
-              Your CRM, your spreadsheets, your ERP? They stay. We don&apos;t
-              replace them and we don&apos;t ask your team to learn something new.
-              We build the connecting layer that makes your existing tools work
-              together, so data flows where it needs to, actions trigger
-              automatically, and your operations run on the infrastructure
-              you&apos;ve already invested in.
+              Your CRM, spreadsheets, ERP — they stay. We don&apos;t replace
+              your stack and we don&apos;t ask your team to learn anything new. We
+              build the layer that connects everything: data flows where it
+              needs to, actions trigger automatically, and your operations run
+              on infrastructure you&apos;ve already paid for.
             </p>
 
             {/* CTA */}

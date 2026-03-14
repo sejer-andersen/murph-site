@@ -16,8 +16,7 @@ export default function Footer() {
               />
             </a>
             <p className="text-sm max-w-[20rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
-              AI-powered systems that let companies buy time for the first time.
-              From diagnosis to deployment, we own the entire process.
+              AI execution partner for operators who don&apos;t wait. We design, build, and own the systems that buy you time.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-x-8 sm:gap-x-16 gap-y-8 sm:grid-cols-3">
