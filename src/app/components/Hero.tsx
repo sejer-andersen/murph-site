@@ -39,7 +39,7 @@ function formatNumber(n: number) {
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col overflow-hidden">
+    <section className="relative min-h-screen flex flex-col overflow-hidden time-grain">
       {/* Full-bleed background image */}
       <Image
         src={heroImage}
@@ -195,7 +195,7 @@ export function TimeSavedBanner() {
     <div className="flex flex-col items-center animate-fade-in-up delay-100" style={{ opacity: 0 }}>
       <a
         href="/time-saved"
-        className="flex items-center gap-x-2 py-2 pr-3 pl-4 rounded-full border border-white/15 backdrop-blur-[12px] hover:bg-white/15 text-xs font-medium transition-all duration-150 cursor-pointer"
+        className="flex items-center gap-x-2 py-2 pr-3 pl-4 rounded-full border border-white/15 backdrop-blur-[12px] hover:bg-white/15 text-xs font-medium transition-all duration-150 cursor-pointer time-pulse"
         style={{ background: "rgba(0,0,0,0.3)" }}
       >
         <span className="inline-block w-2 h-2 rounded-full bg-green-400 animate-pulse" />

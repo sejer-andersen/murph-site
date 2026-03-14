@@ -1,17 +1,16 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-brand-blue: #257af3;
-  --color-finta-50: #E7EDFD;
-  --color-finta-200: #B9D7EC;
-  --color-finta-800: #545454;
-  --color-finta-900: #212121;
-  --color-finta-950: #212121;
+  --color-murph-black: #0a0a0a;
+  --color-murph-green: #4ade80;
+  --color-murph-orange: #f97316;
+  --color-murph-card: #111111;
+  --color-murph-border: #1a1a1a;
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #212121;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
 }
 
 body {
@@ -246,6 +245,57 @@ body {
 /* Font weight book */
 .font-book {
   font-weight: 350;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SIGNATURE VISUAL: Time Grain
+   A subtle animated noise texture overlay that evokes the
+   passage of time. Used on hero sections and CTA cards.
+   ═══════════════════════════════════════════════════════════ */
+.time-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 128px 128px;
+  animation: grain-shift 8s steps(10) infinite;
+}
+
+@keyframes grain-shift {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-5%, -10%); }
+  20% { transform: translate(-15%, 5%); }
+  30% { transform: translate(7%, -25%); }
+  40% { transform: translate(-5%, 25%); }
+  50% { transform: translate(-15%, 10%); }
+  60% { transform: translate(15%, 0%); }
+  70% { transform: translate(0%, 15%); }
+  80% { transform: translate(3%, 35%); }
+  90% { transform: translate(-10%, 10%); }
+}
+
+/* Time pulse ring — used on the counter and key CTAs */
+.time-pulse {
+  position: relative;
+}
+
+.time-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: inherit;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  animation: pulse-ring 3s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  70% { transform: scale(1.08); opacity: 0; }
+  100% { transform: scale(1.08); opacity: 0; }
 }
 
 /* Typing dots animation */

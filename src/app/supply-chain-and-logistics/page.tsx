@@ -115,7 +115,7 @@ function SCLHero() {
             textShadow: "0 2px 24px rgba(0,0,0,0.5)",
           }}
         >
-          Move more freight.<br />With fewer bottlenecks.
+          Stop losing hours<br />to logistics admin.
         </h1>
 
         <p
@@ -128,8 +128,9 @@ function SCLHero() {
             textShadow: "0 2px 20px rgba(0,0,0,0.4)",
           }}
         >
-          We build custom AI systems that automate quoting, dispatch, tracking,
-          and coordination — so your team can focus on moving cargo, not managing spreadsheets.
+          Quoting, dispatch, tracking, coordination — every hour your team
+          spends on admin is an hour they&apos;re not moving cargo. We build the
+          systems that give those hours back.
         </p>
 
         <div className="mt-8 flex items-center gap-x-3 sm:gap-x-4 animate-fade-in-up delay-400" style={{ opacity: 0 }}>

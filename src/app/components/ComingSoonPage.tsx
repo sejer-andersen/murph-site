@@ -83,7 +83,7 @@ export default function ComingSoonPage() {
                   opacity: 0,
                 }}
               >
-                Trusted by forward-thinking companies
+                Trusted by people who value their time
               </p>
               <div
                 className="animate-fade-in-up delay-600"
