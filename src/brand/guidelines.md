@@ -1,285 +1,309 @@
-# MURPH BRAND GUIDELINES - COMPLETE DESCRIPTION FOR LLM
+# MURPH BRAND GUIDE
 
-## BRAND OVERVIEW
+## The One Rule
 
-Brand Name: Murph
+Everything we do, say, design, and build serves one idea:
 
-Industry: AI-first software for coaches and knowledge businesses
+**Time is the only currency that matters. Murph is how you buy it back.**
 
-Brand Positioning: "Quiet infrastructure" - Murph is positioned as calm, intelligent, restrained infrastructure that helps coaches scale their operations without adding more hours. The brand avoids typical AI/SaaS clichés in favor of an understated, confident, timeless approach.
+If a headline, a color, a section, or a sentence doesn't reinforce this, cut it.
 
-Brand Personality:
-- Calm and intelligent
-- Restrained and confident
-- Light, clean, minimal, approachable
-- Modern and professional
-- Editorial and timeless
-- Understated sophistication
+---
 
-Core Values:
-- Clarity - Clear communication and transparent systems
-- Leverage - Multiply impact without multiplying effort
-- Continuity - Consistent, reliable infrastructure that endures
-- Constraint - Solving complex problems through thoughtful limitation
+## Who We Are
 
-## VISUAL IDENTITY
+Murph is an AI execution partner. We design, build, deploy, and maintain custom AI systems that give companies their time back.
 
-### Logo System
+We are not consultants. We don't hand off decks. We don't disappear after scoping.
+We are not a marketing agency. We don't do retainers and slides.
+We are not a SaaS product. We don't sell licenses to generic tools.
 
-Wordmark:
-- Font: Murmure (distinctive stencil-style font with geometric breaks/cutouts)
-- Style: Uppercase "MURPH" with strategic geometric breaks in letterforms
-- Character: Architectural, modern, precise, minimal, confident
-- Usage: Primary brand identifier, used in all logo lockups
+We find where time is bleeding, and we build the infrastructure that stops it. Permanently.
 
-Icon:
-- Design: Diagonal pill shape (solid) overlapping with an infinity loop (thin outline)
-- Construction: Solid rounded rectangle at approximately 30-45° diagonal angle, intersected by a thin figure-eight outline
-- Symbolism: Bridge between dimensions, continuity, constraint solving complexity, the infinite made tangible
-- Style: Geometric, precise, minimal, flowing
-- Variations: Standard black, primary blue, white (on dark backgrounds), with optional soft glow effect
+### What We Believe
+- Time is the one asset you've never been able to buy. Until now.
+- Every hour spent on work a system could handle is an hour stolen from growth.
+- The best systems are invisible. They run in the background, compounding value every day.
+- We don't build for everyone. We build for people who understand what their time is worth.
 
-Logo Lockups:
-- Horizontal: Icon left, wordmark right
-- Vertical/Stacked: Icon top, wordmark bottom
-- Icon alone: For app icons, favicons, small applications
-- Wordmark alone: For text-heavy contexts
+---
 
-Clear Space & Sizing:
-- Minimum clear space: Use "X" height method (height of one letter)
-- Minimum wordmark width: 120px digital, 1 inch print
-- Maintain proportions - never stretch or distort
+## Who We Serve
 
-## COLOR PALETTE
+**Directors, founders, and C-level at growth-stage companies.**
 
-### Primary Colors
-- White: #FFFFFF - Primary backgrounds, cards, UI elements, clean space
-- Black: #212121 - Primary text, headlines, logos, strong contrast
-- Primary Blue: #1E5894 - CTAs, interactive elements, primary accents, links
+They share three traits:
+1. They already use AI daily. They've experimented. They see the use cases.
+2. They have high standards for execution. They'd rather pay for excellent work than cheap hours.
+3. They value their time above everything else.
 
-### Secondary Colors
-- Dark Grey: #545454 - Body text, secondary information, subtle text
-- Light Blue: #6699C2 - Subtle accents, secondary links, hover states
-- Pale Blue: #B9D7EC - Light accents, borders, dividers, subtle highlights
+We are selective. We work with the top 1% of AI operators — people who are already ahead of the curve and want someone to build at their standard.
 
-### Background Colors
-- Ultra Light Blue: #E7EDFD - Subtle section backgrounds, page backgrounds
-- Card Background: #D6DFFC - Card/panel backgrounds, elevated surfaces
-- Lavender Blue: #C5D2FB - Hover states, highlights, interactive feedback
+---
 
-### Extended Palette (for flexibility)
-- Deep Blue: #012A4A - Strong accents when needed, dark mode elements
-- Dark Blue: #0D3C6A - Secondary strong accents
-- Medium Blue: #3E72A7 - Alternative interactive elements
-- Lighter Blue: #91B7D8 - Soft backgrounds, subtle gradients
-- Light Lavender: #B5C4FA, #A4B6F9 - Very soft highlights, decorative elements
+## Tagline
 
-### Color Usage Philosophy
-- White-dominant aesthetic with soft blue accents
-- High contrast for readability (black text on white backgrounds)
-- Primary Blue for all interactive elements and CTAs
-- Subtle blue backgrounds for visual interest without overwhelming
-- Professional, clean, approachable color relationships
+**Buy time. For the first time.**
 
-### Accessibility
-- All text meets WCAG AA standards minimum
-- Primary text (#212121) on white (#FFFFFF): AAA compliant
-- Primary Blue (#1E5894) used for interactive elements with sufficient contrast
+This is the anchor. It appears in the hero, in the footer, in the meta tags, in every pitch deck, in every cold email. It never changes. Everything else orbits around it.
 
-## TYPOGRAPHY
+---
 
-### Font Hierarchy
+## Voice & Tone
 
-1. Logo/Wordmark Font:
-  Murmure
-  Usage: ONLY for the "Murph" wordmark and logo lockups
-  Character: Stencil-style with geometric breaks, architectural, distinctive
-  Never use for headlines or body copy
+### How Murph Sounds
+- **Direct and sharp.** Short sentences. No filler. No buzzwords.
+- **Intelligent and technical, but always tied to outcome.** We name things (multi-agent workflow, RAG pipeline, event-driven automation) but we spend more words on the result: time saved, errors eliminated, revenue unlocked.
+- **Confident, not arrogant.** We state what we do. We don't oversell.
+- **Light dry humor when it fits.** "Your SDR that never sleeps." "Others scope it and leave."
 
-2. Headline Font:
-  Inter Medium (Weight 500)
-  Character: Lighter, refined, professional - NOT bold or heavy
-  Usage: Page titles, section headlines, CTAs, UI headers, card titles
-  Sizes:
-    Hero headlines: 48px-72px
-    Section headlines: 32px-48px
-    Subsection headlines: 24px-32px
-    UI headers: 18px-24px
-  Line height: 1.2-1.3 for headlines
-  Letter spacing: -0.02em for large sizes, 0 for smaller sizes
+### Writing Rules
+1. **Lead with time.** Every headline, every section intro should connect back to time saved, time recovered, time bought back.
+2. **Write for people who are already ahead.** Don't explain what AI is. Don't define automation. Our audience knows. Speak to them as peers.
+3. **Short > long.** If you can say it in 5 words, don't use 15.
+4. **Outcome > feature.** Never describe what a system does without saying what time it saves.
+5. **No corporate speak.** No "leverage synergies," no "holistic solutions," no "digital transformation."
 
-3. Body Font:
-  Lato Regular (Weight 400) - Standard body text
-  Lato Medium (Weight 500) - Emphasis within body text
-  Character: Warm, humanist, highly readable, approachable
-  Usage: Paragraphs, descriptions, supporting copy, captions, UI text
-  Sizes:
-    Body text: 16px-18px
-    Captions: 14px
-    Lead paragraphs: 20px-24px
-    Small text: 12px-13px
-  Line height: 1.5-1.6 for body text
-  Letter spacing: 0 (default)
+### Pain/Solution Structure (for case studies, landing pages, sales copy)
+```
+Context (1-2 lines) — who and what's happening in their business
+Pain (very specific) — "Ops team spent 2 FTE on manual QA checks"
+Solution (short) — "We built an AI agent that handles 80% of checks end-to-end"
+Outcome (numbers) — "Freed ~1.4 FTE and cut error rate by 37%"
+```
+Spend most words on time, risk, and revenue. Not on technical architecture.
 
-### Typography Best Practices
-- Use Inter Medium for all headlines - avoid heavier weights
-- Use Lato Regular for most body text
-- Use Lato Medium sparingly for emphasis
-- Maintain clear hierarchy through size and weight
-- Generous line spacing for readability
-- Left-align body text, center-align headlines when appropriate
-- Never use Murmure outside of logo applications
+### Examples
 
-## DESIGN STYLE & PRINCIPLES
+**Good:**
+- "5 hours a day. That's what DLVR got back."
+- "Your time is bleeding. We stop it."
+- "Systems that compound. The longer they run, the more time you buy back."
+- "We don't hand off. We build it, deploy it, and own the result."
 
-### Visual Aesthetic
-- Clean, minimal, spacious layouts
-- White backgrounds with light blue section backgrounds
-- Subtle shadows and depth (not heavy or dark)
-- Professional, modern, approachable
-- "Quiet infrastructure" - understated confidence
-- Editorial quality with attention to detail
+**Bad:**
+- "Our AI-powered platform leverages cutting-edge machine learning to optimize your workflows." (corporate garbage)
+- "We help businesses streamline their operations through innovative technology solutions." (says nothing)
+- "Murph utilizes state-of-the-art artificial intelligence to drive digital transformation." (kill it)
+
+---
+
+## Visual Identity
+
+### Color System
+
+The brand is dark. Confident. The opposite of every white-background SaaS clone.
+
+#### Primary
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Black | `#0a0a0a` | Primary background. The canvas. |
+| White | `#FFFFFF` | Primary text, headlines, CTAs |
+| Green | `#4ade80` | Success states, progress, "live" indicators, active elements |
+| Orange | `#f97316` | Section labels, category markers, warm accents |
+
+#### Text
+| Color | Opacity | Usage |
+|-------|---------|-------|
+| White 100% | `#FFFFFF` | Headlines, names, key stats |
+| White 90% | `rgba(255,255,255,0.9)` | Nav links, strong body text |
+| White 70% | `rgba(255,255,255,0.7)` | Review text, descriptions |
+| White 50% | `rgba(255,255,255,0.5)` | Body copy, subtitles, secondary text |
+| White 40% | `rgba(255,255,255,0.4)` | Captions, stat labels, footer links |
+| White 30% | `rgba(255,255,255,0.3)` | Footer headers, muted labels |
+
+#### Surfaces
+| Color | Usage |
+|-------|-------|
+| `#111` / `rgba(255,255,255,0.04)` | Cards, panels, elevated surfaces |
+| `#1a1a1a` | Card borders |
+| `rgba(255,255,255,0.06)` | Dividers, subtle borders |
+| `rgba(255,255,255,0.08)` | Horizontal rules, FAQ separators |
+| `rgba(0,0,0,0.65)` + `blur(24px)` | Glassmorphism panels (demo overlays) |
+
+#### Green Usage Rules
+Green = alive, working, saving time. Use it for:
+- Progress bars and completion indicators
+- "Live" badges
+- Checkmarks and success states
+- Active step borders (dashed green)
+- Star ratings
+- The time-saved counter pulse
+
+Never use green for backgrounds or large surfaces. It's an accent, not a canvas.
+
+#### Orange Usage Rules
+Orange = category label. Use it only for:
+- Small dot + uppercase section labels ("WHO WE HELP", "THE DIFFERENCE", "YOUR TOOLS, CONNECTED")
+- The FAQ "Contact us" link
+- Nothing else. Orange is rare and intentional.
+
+### Typography
+
+#### Font Stack
+1. **Inter** (Medium 500) — Headlines, section titles, UI headers, stat numbers, card titles
+2. **Lato** (Regular 400) — Body copy, descriptions, subtitles, captions, labels
+3. **Georgia** (serif) — Large editorial headings only ("Your time is the product", "Not another consultant"). Used sparingly for emotional impact.
+
+#### Sizing
+| Element | Size | Font | Weight |
+|---------|------|------|--------|
+| Hero headline | `text-6xl` / `text-7xl` | Inter | 500 |
+| Section editorial heading | `text-5xl` / `text-[56px]` | Georgia | 400 |
+| Card section title | `text-[22px]` / `text-[26px]` | Inter | 600 |
+| Body text | `text-[15px]` / `text-base` | Lato | 400 |
+| Section label | `text-[11px]` uppercase | Lato | 500 |
+| Stat numbers | `text-6xl` / `text-7xl` | Inter | 500 |
+| Badge / pill text | `text-[10px]` / `text-xs` | System | 500 |
+
+#### Rules
+- Inter Medium (500) for headlines. Never bold. Never heavy. The restraint is the point.
+- Lato Regular for everything else. Clean, warm, readable.
+- Georgia serif ONLY for the big emotional headings. Max 2-3 on the entire site.
+- Line height: 1.1 for headlines, 1.5-1.6 for body.
+
+### Logo
+
+**Wordmark**: Murmure font, uppercase "MURPH". Stencil-style with geometric breaks.
+- On dark backgrounds: white (`brightness(0) invert(1)` filter)
+- Height: 22px in header/footer
+- Clear space: minimum 1x letter height on all sides
+
+**Icon**: Diagonal pill + infinity loop. Used for favicons, app icons, social avatars.
 
 ### Layout Principles
-- Generous white space - never cramped
-- Clear visual hierarchy
-- Grid-based layouts for consistency
-- Balanced compositions
-- Breathing room around all elements
+
+- **Dark canvas, always.** `#0a0a0a` background. No white pages. No light mode.
+- **Generous spacing.** `py-16 lg:py-24` between sections. Breathing room everywhere.
+- **Container max-width** with `px-4 sm:px-6 lg:px-10` padding.
+- **Cards**: `#111` background, `1px solid #1a1a1a` border, `border-radius: 18px`
+- **Split layouts**: `grid lg:grid-cols-[40%_60%]` — text left, visual right (or inverse)
+- **Mobile-first**: Stack on mobile, split on desktop. Images hidden below `lg:`.
 
 ### UI Elements
-- White cards/panels on light blue backgrounds
-- Rounded corners (subtle 8-12px radius, not overly rounded)
-- Light borders and dividers (Pale Blue #B9D7EC)
-- Primary Blue (#1E5894) for all interactive elements
-- Subtle shadows for depth (0-2px blur, low opacity)
-- Clean, minimal icons
 
-### Graphic Style
-- Simple, clean diagrams and flowcharts
-- Light color palette throughout
-- Minimal, functional icons
-- Focus on clarity and functionality
-- Geometric precision where appropriate
-- Organic, flowing curves for icon and decorative elements
+**Buttons (Primary)**:
+```
+bg-white text-[#212121] rounded-full px-7 py-3 text-sm font-medium
+hover:bg-white/90
+```
 
-### Photography/Imagery (if used)
-- Clean, professional, well-lit
-- Minimal backgrounds
-- Focus on people and real scenarios
-- Avoid stock photo cliches
-- Light, airy aesthetic
+**Buttons (Secondary)**:
+```
+border border-white/30 bg-white/15 text-white rounded-full px-7 py-3
+backdrop-blur-sm hover:bg-white/25
+```
 
-## ICON & GRAPHIC ELEMENTS
+**Buttons (Ghost)**:
+```
+border border-white/20 text-white rounded-full px-5 py-2.5
+hover:border-white/40
+```
 
-### Primary Icon
-- Diagonal pill + infinity loop
-- Use in brand lockups, app icons, favicons
-- Available with soft glow effect for premium applications
-- Maintain geometric precision
+**Pills / Badges**:
+```
+bg-rgba(74,222,128,0.12) text-#4ade80 rounded-full px-2.5 py-1 text-[10px]
+```
 
-### Icon Variations
-- Standard (solid black or primary blue)
-- With glow effect (soft, diffused blur)
-- On light backgrounds (black or primary blue)
-- On dark backgrounds (white)
-- Transparent backgrounds for flexible use
+**Section Labels**:
+```
+Orange dot (w-2.5 h-2.5 rounded-full bg-#f97316) + uppercase text-[11px] tracking-[0.1em]
+```
 
-### Graphic Patterns
-- Subtle geometric patterns using brand colors
-- Light blue gradients for backgrounds
-- Minimal, non-distracting
-- Support content, never overpower
+### Photography
 
-## BRAND APPLICATIONS
+- Large, cinematic landscape images (canyons, deserts, mountains)
+- Dark overlays: `linear-gradient(to bottom, rgba(0,0,0,0.30) ... rgba(0,0,0,0.58))`
+- Images as backgrounds for hero and card sections, never standalone
+- The imagery says: vast, enduring, natural forces. Time at geological scale.
+
+### Glassmorphism Panels
+
+Used for demo/preview content overlaid on photography:
+```
+background: rgba(0,0,0,0.65)
+backdrop-filter: blur(24px)
+border-radius: 14px
+border: 1px solid rgba(255,255,255,0.08)
+padding: 24px
+```
+
+### Animations
+
+- **Fade in up**: `animate-fade-in-up` with staggered delays (100ms, 200ms, 300ms...)
+- **Logo carousel**: Continuous horizontal scroll with duplicated tracks
+- **Review columns**: 3-column masonry with alternating scroll directions
+- **Count-up numbers**: Ease-out cubic on intersection
+- **Progress bars**: Two-phase (40% fast, 60% slow) for "How we work" steps
+- All animations are subtle. No bouncing, no zooming, no flashy transitions.
+
+---
+
+## The Signature Visual Element
+
+**The Time-Saved Counter.**
+
+A live, real-time counter showing total minutes saved across all Murph clients. It sits in the hero as a glowing green-pulsing pill. It's always counting. It never stops.
+
+This is Murph's signature brand element. It says: "This number is real. And it's growing right now."
+
+Use it on:
+- The website hero (primary)
+- Pitch decks (screenshot or live embed)
+- Social posts ("We just passed 1M minutes saved")
+- Email signatures
+- Sales materials
+
+---
+
+## Brand Applications
 
 ### Website
-- Hero sections with Inter Medium headlines (48-72px)
-- Light blue section backgrounds (#E7EDFD)
-- White content cards (#FFFFFF)
-- Primary Blue CTAs (#1E5894)
-- Clean, spacious layouts with generous padding
-- Lato Regular body text (16-18px, #545454)
+Dark canvas. Green accents. Time in every headline. Cinematic photography. Glassmorphism demo panels. The counter.
 
-### Platform UI
-- Light-themed interface
-- White backgrounds with light blue accents
-- Chat-based AI interaction
-- Inter Medium headlines for UI headers
-- Lato Regular for UI text
-- Primary Blue for interactive elements
-- Clean, modern, professional
-
-### Marketing Materials
-- Minimal, editorial aesthetic
-- Light backgrounds (white or ultra light blue)
-- Inter Medium headlines
-- Lato body copy
-- Murph icon and wordmark placement following clear space rules
-- Primary Blue for CTAs and key information
+### Pitch Decks
+- Dark slides (`#0a0a0a` background)
+- Inter Medium headlines, Lato body
+- Green for metrics and outcomes
+- Lead with the counter
+- Case studies follow Context → Pain → Solution → Outcome
 
 ### Social Media
-- Square formats: Icon + wordmark stacked
-- Horizontal formats: Icon + wordmark horizontal
-- Consistent light color palette
-- Inter Medium for headlines
-- Primary Blue accents
+- Dark backgrounds, white text, green accents
+- Short, punchy copy — one line that hits
+- Always tie back to time saved
+- Use the counter milestone posts as recurring content
 
-### Print Materials
-- Business cards: Minimal, white with black text and primary blue accent
-- Letterhead: Wordmark top left, subtle light blue accent
-- Presentations: Light backgrounds, clear hierarchy, generous white space
+### Email
+- Plain text preferred (founders don't read HTML newsletters)
+- Short. Direct. One ask.
+- Signature includes: Name / Murph / "Buy time. For the first time."
 
-## DO'S AND DON'TS
+### Case Studies
+- Always lead with the time number: "5 hrs/day saved" or "Freed ~1.4 FTE"
+- Follow the Context → Pain → Solution → Outcome structure
+- Include a "before vs. after" time comparison
+- End with a single sentence about what they do with the time now
 
-DO:
-- Use Murmure only for the logo wordmark
-- Use Inter Medium (500) for all headlines
-- Use Lato Regular/Medium for all body text
-- Maintain generous white space
-- Use Primary Blue (#1E5894) for all CTAs and interactive elements
-- Keep layouts clean and minimal
-- Maintain logo clear space
-- Use light backgrounds (white or ultra light blue)
-- Ensure high contrast for readability
+---
 
-DON'T:
-- Don't use Murmure for headlines or body text
-- Don't use Inter Bold or heavier weights for headlines
-- Don't stretch or distort the logo
-- Don't use colors outside the brand palette
-- Don't crowd elements - maintain breathing room
-- Don't use dark backgrounds (brand is light-themed)
-- Don't use orange/terracotta colors (old palette)
-- Don't make layouts busy or cluttered
-- Don't use heavy shadows or effects
+## Do's and Don'ts
 
-## BRAND TONE & VOICE
+### Do
+- Make every piece of copy about time
+- Use dark backgrounds everywhere
+- Keep sentences short and sharp
+- Name technical things (RAG, agents, workflows) but always tie to time/outcome
+- Use green for "alive" and "working"
+- Use the time-saved counter everywhere you can
+- Write for people already ahead of the curve
 
-Voice Characteristics:
-- Calm and confident
-- Clear and direct
-- Intelligent but accessible
-- Professional without being corporate
-- Understated, not flashy
-
-Messaging Principles:
-- Focus on clarity and value
-- Avoid AI/tech jargon
-- Speak to coaches and knowledge workers directly
-- Emphasize leverage and efficiency
-- "Quiet infrastructure" positioning
-
-## COMPETITIVE DIFFERENTIATION
-
-Similar Aesthetic References:
-- Parahelp (clean, minimal, professional)
-- Finta (light blue accents, modern UI)
-- Linear (refined typography, spacious layouts)
-
-What Makes Murph Unique:
-- Murmure stencil wordmark (architectural, distinctive)
-- Diagonal pill + infinity loop icon (conceptual depth)
-- "Quiet infrastructure" positioning (understated vs. flashy)
-- Specific focus on coaches/knowledge businesses
-- Lighter, more refined typography (Inter Medium vs. Bold)
+### Don't
+- Use light/white backgrounds for the brand
+- Write corporate speak or buzzwords
+- Explain what AI is (our audience already knows)
+- Use green for backgrounds or large surfaces
+- Use more than 2-3 serif (Georgia) headings per page
+- Add features without connecting them to time saved
+- Use stock photography with people in suits pointing at screens
+- Ever say "digital transformation", "synergy", "holistic", or "leverage" (as a verb)
