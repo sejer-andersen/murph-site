@@ -96,6 +96,9 @@ export default function Footer() {
           <p className="text-xs" style={{ color: "rgba(255,255,255,0.3)" }}>
             &copy; {new Date().getFullYear()} Murph. All rights reserved.
           </p>
+          <p className="text-xs mt-1" style={{ color: "rgba(255,255,255,0.2)" }}>
+            Part of Sejer Group II
+          </p>
         </div>
       </div>
     </footer>
